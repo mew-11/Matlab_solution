@@ -11,4 +11,4 @@ axis([0, 100, -1.5, 1.5]);
 title('Swept-Frequency Sinusoidal Signal');
 xlabel('Time index n');
 ylabel('Amplitude');
-grid; axis;
+grid; axis;                        
