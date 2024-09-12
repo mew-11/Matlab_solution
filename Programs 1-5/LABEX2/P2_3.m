@@ -15,7 +15,7 @@ y = filter(num, den, x, ic); % Compute the output y[n]
 yt = a * y1 + b * y2;
 d = y - yt; % Compute the difference output d[n]
 % Plot the outputs and the difference signal
-subplot(3, 1, 1)
+subplot(3, 1, 1);
 stem(n, y);
 ylabel('Amplitude');
 title('Output Due to Weighted Input: a \cdot x_{1}[n] + b \cdot x_{2}[n]');
