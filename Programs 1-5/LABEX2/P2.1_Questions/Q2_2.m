@@ -14,7 +14,7 @@ M = input('Desired length of the filter = ');
 % sequency (-1)^n. This shifts the low pass frequency
 % response up to be centered at f=0.25, making it a high
 % pass filter.
-num = (-1) .^ [0:M - 1];
+num = (-1) .^ (0:M - 1);
 y = filter(num, 1, x) / M;
 % Display the input and output signals
 clf;
